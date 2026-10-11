@@ -1,161 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1195.2pt" height="1036.8pt" viewBox="0 0 1195.2 1036.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-12T15:00:00</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 1036.8 L 1195.2 1036.8 L 1195.2 0 L 0 0 z" style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 119.52 746.88 L 1036.8 746.88 L 1036.8 149.76 L 119.52 149.76 z" style="fill: #ffffff"/>
-   </g>
-   <g id="matplotlib.axis_1">
-    <g id="xtick_1">
-     <g id="line2d_1">
-      <path d="M 119.52 746.88 L 119.52 149.76" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_1">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: middle" x="119.52" y="765.78">2000</text>
-     </g>
-    </g>
-    <g id="xtick_2">
-     <g id="line2d_2">
-      <path d="M 303.12 746.88 L 303.12 149.76" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_2">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: middle" x="303.12" y="765.78">2005</text>
-     </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_3">
-      <path d="M 486.72 746.88 L 486.72 149.76" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_3">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: middle" x="486.72" y="765.78">2010</text>
-     </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_4">
-      <path d="M 670.32 746.88 L 670.32 149.76" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_4">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: middle" x="670.32" y="765.78">2015</text>
-     </g>
-    </g>
-    <g id="xtick_5">
-     <g id="line2d_5">
-      <path d="M 853.92 746.88 L 853.92 149.76" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_5">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: middle" x="853.92" y="765.78">2020</text>
-     </g>
-    </g>
-    <g id="xtick_6">
-     <g id="line2d_6">
-      <path d="M 1037.52 746.88 L 1037.52 149.76" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_6">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: middle" x="1037.52" y="765.78">2025</text>
-     </g>
-    </g>
-   </g>
-   <g id="matplotlib.axis_2">
-    <g id="ytick_1">
-     <g id="line2d_7">
-      <path d="M 119.52 746.88 L 1036.8 746.88" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_7">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: end" x="107.04" y="751.2">0</text>
-     </g>
-    </g>
-    <g id="ytick_2">
-     <g id="line2d_8">
-      <path d="M 119.52 627.36 L 1036.8 627.36" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_8">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: end" x="107.04" y="631.68">10兆</text>
-     </g>
-    </g>
-    <g id="ytick_3">
-     <g id="line2d_9">
-      <path d="M 119.52 507.84 L 1036.8 507.84" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_9">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: end" x="107.04" y="512.16">20兆</text>
-     </g>
-    </g>
-    <g id="ytick_4">
-     <g id="line2d_10">
-      <path d="M 119.52 388.32 L 1036.8 388.32" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_10">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: end" x="107.04" y="392.64">30兆</text>
-     </g>
-    </g>
-    <g id="ytick_5">
-     <g id="line2d_11">
-      <path d="M 119.52 268.8 L 1036.8 268.8" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_11">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: end" x="107.04" y="273.12">40兆</text>
-     </g>
-    </g>
-    <g id="ytick_6">
-     <g id="line2d_12">
-      <path d="M 119.52 149.28 L 1036.8 149.28" style="fill: none; stroke-dasharray: 3.7,2.775; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.9"/>
-     </g>
-     <g id="text_12">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: end" x="107.04" y="153.6">50兆</text>
-     </g>
-    </g>
-    <g id="ytick_7">
-     <g id="text_13">
-      <text style="fill: #444444; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-anchor: end" x="107.04" y="34.08">60兆ドル</text>
-     </g>
-    </g>
-   </g>
-   <g id="line2d_13">
-    <path d="M 119.52 726.05 L 127.31 724.17 L 135.10 722.29 L 142.89 720.41 L 150.68 718.53 L 158.47 716.65 L 166.26 714.77 L 174.05 712.89 L 181.84 711.01 L 189.63 709.13 L 197.42 707.25 L 205.21 705.37 L 212.99 703.49 L 220.78 701.61 L 228.57 699.73 L 236.36 697.85 L 244.15 695.97 L 251.94 694.09 L 259.73 692.21 L 267.52 690.33 L 275.31 688.45 L 283.10 686.57 L 290.89 684.69 L 298.68 682.81 L 306.47 680.93 L 314.26 679.05 L 322.04 677.17 L 329.83 675.29 L 337.62 673.41 L 345.41 671.53 L 353.20 669.65 L 360.99 667.77 L 368.78 665.89 L 376.57 664.01 L 384.36 662.13 L 392.15 660.25 L 399.94 658.37 L 407.73 656.49 L 415.52 654.61 L 423.31 652.73 L 431.10 650.85 L 438.88 648.97 L 446.67 647.09 L 454.46 645.21 L 462.25 643.33 L 470.04 641.45 L 477.83 639.57 L 485.62 637.69 L 493.41 635.81 L 501.20 633.93 L 508.99 632.05 L 516.78 630.17 L 524.57 628.29 L 532.36 626.41 L 540.15 624.53 L 547.94 622.65 L 555.73 620.77 L 563.52 618.89 L 571.30 617.01 L 579.09 615.13 L 586.88 613.25 L 594.67 611.37 L 602.46 609.49 L 610.25 607.61 L 618.04 605.73 L 625.83 603.85 L 633.62 601.97 L 641.41 600.09 L 649.20 598.21 L 656.99 596.33 L 664.78 594.45 L 672.57 592.57 L 680.36 590.69 L 688.15 588.81 L 695.94 586.93 L 703.73 585.05 L 711.52 583.17 L 719.31 581.29 L 727.10 579.41 L 734.88 577.53 L 742.67 575.65 L 750.46 573.77 L 758.25 571.89 L 766.04 570.01 L 773.83 568.13 L 781.62 566.25 L 789.41 564.37 L 797.20 562.49 L 804.99 560.61 L 812.78 558.73 L 820.57 556.85 L 828.36 554.97 L 836.15 553.09 L 843.94 551.21 L 851.73 549.33 L 859.52 547.45 L 867.31 545.57 L 875.10 543.69 L 882.89 541.81 L 890.68 539.93 L 898.47 538.05 L 906.25 536.17 L 914.04 534.29 L 921.83 532.41 L 929.62 530.53 L 937.41 528.65 L 945.20 526.77 L 952.99 524.89 L 960.78 523.01 L 968.57 521.13 L 976.36 519.25 L 984.15 517.37 L 991.94 515.49 L 999.73 513.61 L 1007.52 511.73 L 1015.31 509.85 L 1023.10 507.97 L 1030.89 506.09 L 1036.8 504.68" style="fill: none; stroke: #c99a3f; stroke-width: 2.7; stroke-linecap: round"/>
-   </g>
-   <g id="line2d_14">
-    <path d="M 119.52 741.51 L 127.31 741.51 L 135.10 741.51 L 142.89 741.51 L 150.68 741.51 L 158.47 741.51 L 166.26 741.51 L 174.05 741.51 L 181.84 741.51 L 189.63 741.51 L 197.42 741.51 L 205.21 741.51 L 212.99 741.51 L 220.78 741.51 L 228.57 741.51 L 236.36 741.51 L 244.15 741.51 L 251.94 741.51 L 259.73 741.51 L 267.52 741.51 L 275.31 741.51 L 283.10 741.51 L 290.89 741.51 L 298.68 741.51 L 306.47 741.51 L 314.26 741.51 L 322.04 741.51 L 329.83 741.51 L 337.62 741.51 L 345.41 741.51 L 353.20 741.51 L 360.99 741.51 L 368.78 741.51 L 376.57 741.51 L 384.36 741.51 L 392.15 741.51 L 399.94 741.51 L 407.73 741.51 L 415.52 741.51 L 423.31 741.51 L 431.10 741.51 L 438.88 741.51 L 446.67 741.51 L 454.46 741.51 L 462.25 741.51 L 470.04 741.51 L 477.83 741.51 L 485.62 741.51 L 493.41 741.51 L 501.20 741.51 L 508.99 741.51 L 516.78 741.51 L 524.57 741.51 L 532.36 741.51 L 540.15 741.51 L 547.94 741.51 L 555.73 741.51 L 563.52 741.51 L 571.30 741.51 L 579.09 741.51 L 586.88 741.51 L 594.67 741.51 L 602.46 741.51 L 610.25 741.51 L 618.04 741.51 L 625.83 741.51 L 633.62 741.51 L 641.41 741.51 L 649.20 741.51 L 656.99 741.51 L 664.78 741.51 L 672.57 741.51 L 680.36 741.51 L 688.15 741.51 L 695.94 741.51 L 703.73 741.51 L 711.52 741.51 L 719.31 741.51 L 727.10 741.51 L 734.88 741.51 L 742.67 741.51 L 750.46 741.51 L 758.25 741.51 L 766.04 741.51 L 773.83 741.51 L 781.62 741.51 L 789.41 741.51 L 797.20 741.51 L 804.99 741.51 L 812.78 741.51 L 820.57 741.51 L 828.36 741.51 L 836.15 741.51 L 843.94 741.51 L 851.73 741.51 L 859.52 741.51 L 867.31 741.51 L 875.10 741.51 L 882.89 741.51 L 890.68 741.51 L 898.47 741.51 L 906.25 741.51 L 914.04 741.51 L 921.83 741.51 L 929.62 741.51 L 937.41 741.51 L 945.20 741.51 L 952.99 741.51 L 960.78 741.51 L 968.57 741.51 L 976.36 741.51 L 984.15 741.51 L 991.94 741.51 L 999.73 741.51 L 1007.52 741.51 L 1015.31 741.51 L 1023.10 741.51 L 1030.89 741.51 L 1036.8 741.51" style="fill: none; stroke: #4a90c4; stroke-width: 2.7; stroke-linecap: round"/>
-   </g>
-   <g id="text_14">
-    <text style="fill: #333333; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 12.5px; font-style: normal; font-weight: normal" x="1048.32" y="501.98">上位1%</text>
-   </g>
-   <g id="text_15">
-    <text style="fill: #333333; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 12.5px; font-style: normal; font-weight: normal" x="1048.32" y="746.10">下位</text>
-    <text style="fill: #333333; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 12.5px; font-style: normal; font-weight: normal" x="1048.32" y="759.35">50%</text>
-   </g>
-  </g>
-  <g id="text_16">
-   <text style="fill: #111111; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 21px; font-style: normal; font-weight: bold" x="65.74" y="32.45">富の増大</text>
-  </g>
-  <g id="text_17">
-   <text style="fill: #333333; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11.5px; font-style: normal; font-weight: normal" x="65.74" y="56.30">過去25年間で、アメリカの最も裕福な上位1％は</text>
-   <text style="fill: #333333; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 11.5px; font-style: normal; font-weight: normal" x="65.74" y="71.50">下位50％をはるかに上回る富の増加を経験した。</text>
-  </g>
-  <g id="text_18">
-   <text style="fill: #666666; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 8.5px; font-style: normal; font-weight: normal" x="65.74" y="804.20">注：データは2026年9月18日時点（2026年第2四半期）。上位1％＝上位0.1％＋99～99.9パーセンタイルの合計。</text>
-   <text style="fill: #666666; font-family: Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif; font-size: 8.5px; font-style: normal; font-weight: normal" x="65.74" y="817.20">出典：米連邦準備制度理事会（FRB）分配金融勘定（Distributional Financial Accounts）</text>
-  </g>
- </g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1195.2pt" height="1036.8pt" viewBox="0 0 1195.2 1036.8">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g id="grid">
+<line x1="119.52" y1="746.88" x2="1036.80" y2="746.88" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<line x1="119.52" y1="627.36" x2="1036.80" y2="627.36" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<line x1="119.52" y1="507.84" x2="1036.80" y2="507.84" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<line x1="119.52" y1="388.32" x2="1036.80" y2="388.32" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<line x1="119.52" y1="268.80" x2="1036.80" y2="268.80" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<line x1="119.52" y1="149.28" x2="1036.80" y2="149.28" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+</g>
+<g id="axes">
+<line x1="119.52" y1="149.76" x2="119.52" y2="746.88" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<text x="119.52" y="765.78" text-anchor="middle" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">2000</text>
+<line x1="303.12" y1="149.76" x2="303.12" y2="746.88" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<text x="303.12" y="765.78" text-anchor="middle" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">2005</text>
+<line x1="486.72" y1="149.76" x2="486.72" y2="746.88" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<text x="486.72" y="765.78" text-anchor="middle" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">2010</text>
+<line x1="670.32" y1="149.76" x2="670.32" y2="746.88" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<text x="670.32" y="765.78" text-anchor="middle" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">2015</text>
+<line x1="853.92" y1="149.76" x2="853.92" y2="746.88" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<text x="853.92" y="765.78" text-anchor="middle" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">2020</text>
+<line x1="1037.52" y1="149.76" x2="1037.52" y2="746.88" stroke="#cccccc" stroke-width="0.9" stroke-dasharray="3.7,2.775"/>
+<text x="1037.52" y="765.78" text-anchor="middle" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">2025</text>
+<text x="107.04" y="751.20" text-anchor="end" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">0</text>
+<text x="107.04" y="631.68" text-anchor="end" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">10兆</text>
+<text x="107.04" y="512.16" text-anchor="end" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">20兆</text>
+<text x="107.04" y="392.64" text-anchor="end" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">30兆</text>
+<text x="107.04" y="273.12" text-anchor="end" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">40兆</text>
+<text x="107.04" y="153.60" text-anchor="end" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">50兆</text>
+<text x="107.04" y="34.08" text-anchor="end" fill="#444444" font-size="11" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">60兆ドル</text>
+</g>
+<path d="M 119.52,726.05 L 129.77,724.17 L 140.03,722.29 L 150.28,720.41 L 160.53,718.53 L 170.79,716.65 L 181.04,714.77 L 191.29,712.89 L 201.55,711.01 L 211.80,709.13 L 222.06,707.25 L 232.31,705.37 L 242.56,703.49 L 252.82,701.61 L 263.07,699.73 L 273.32,697.85 L 283.58,695.97 L 293.83,694.09 L 304.08,692.21 L 314.34,690.33 L 324.59,688.45 L 334.84,686.57 L 345.10,684.69 L 355.35,682.81 L 365.60,680.93 L 375.86,679.05 L 386.11,677.17 L 396.36,675.29 L 406.62,673.41 L 416.87,671.53 L 427.12,669.65 L 437.38,667.77 L 447.63,665.89 L 457.88,664.01 L 468.14,662.13 L 478.39,660.25 L 488.64,658.37 L 498.90,656.49 L 509.15,654.61 L 519.40,652.73 L 529.66,650.85 L 539.91,648.97 L 550.16,647.09 L 560.42,645.21 L 570.67,643.33 L 580.92,641.45 L 591.18,639.57 L 601.43,637.69 L 611.68,635.81 L 621.94,633.93 L 632.19,632.05 L 642.44,630.17 L 652.70,628.29 L 662.95,626.41 L 673.20,624.53 L 683.46,622.65 L 693.71,620.77 L 703.96,618.89 L 714.22,617.01 L 724.47,615.13 L 734.72,613.25 L 744.98,611.37 L 755.23,609.49 L 765.48,607.61 L 775.74,605.73 L 785.99,603.85 L 796.24,601.97 L 806.50,600.09 L 816.75,598.21 L 827.00,596.33 L 837.26,594.45 L 847.51,592.57 L 857.76,590.69 L 868.02,588.81 L 878.27,586.93 L 888.52,585.05 L 898.78,583.17 L 909.03,581.29 L 919.28,579.41 L 929.54,577.53 L 939.79,575.65 L 950.04,573.77 L 960.30,571.89 L 970.55,570.01 L 980.80,568.13 L 991.06,566.25 L 1001.31,564.37 L 1011.56,562.49 L 1021.82,560.61 L 1032.07,558.73 L 1042.32,556.85 L 1052.58,554.97 L 1062.83,553.09 L 1073.08,551.21 L 1083.34,549.33 L 1093.59,547.45 L 1103.84,545.57 L 1114.10,543.69 L 1124.35,541.81 L 1134.60,539.93 L 1144.86,538.05 L 1155.11,536.17 L 1165.36,534.29 L 1175.62,532.41 L 1185.87,530.53 L 1196.12,528.65 L 1206.38,526.77 L 1216.63,524.89 L 1226.88,523.01 L 1237.14,521.13 L 1247.39,519.25 L 1257.64,517.37 L 1267.90,515.49 L 1278.15,513.61 L 1288.40,511.73 L 1298.66,509.85 L 1308.91,507.97 L 1319.16,506.09 L 1329.42,504.68" fill="none" stroke="#c99a3f" stroke-width="2.7" stroke-linecap="round"/>
+<path d="M 119.52,741.51 L 129.77,741.51 L 140.03,741.51 L 150.28,741.51 L 160.53,741.51 L 170.79,741.51 L 181.04,741.51 L 191.29,741.51 L 201.55,741.51 L 211.80,741.51 L 222.06,741.51 L 232.31,741.51 L 242.56,741.51 L 252.82,741.51 L 263.07,741.51 L 273.32,741.51 L 283.58,741.51 L 293.83,741.51 L 304.08,741.51 L 314.34,741.51 L 324.59,741.51 L 334.84,741.51 L 345.10,741.51 L 355.35,741.51 L 365.60,741.51 L 375.86,741.51 L 386.11,741.51 L 396.36,741.51 L 406.62,741.51 L 416.87,741.51 L 427.12,741.51 L 437.38,741.51 L 447.63,741.51 L 457.88,741.51 L 468.14,741.51 L 478.39,741.51 L 488.64,741.51 L 498.90,741.51 L 509.15,741.51 L 519.40,741.51 L 529.66,741.51 L 539.91,741.51 L 550.16,741.51 L 560.42,741.51 L 570.67,741.51 L 580.92,741.51 L 591.18,741.51 L 601.43,741.51 L 611.68,741.51 L 621.94,741.51 L 632.19,741.51 L 642.44,741.51 L 652.70,741.51 L 662.95,741.51 L 673.20,741.51 L 683.46,741.51 L 693.71,741.51 L 703.96,741.51 L 714.22,741.51 L 724.47,741.51 L 734.72,741.51 L 744.98,741.51 L 755.23,741.51 L 765.48,741.51 L 775.74,741.51 L 785.99,741.51 L 796.24,741.51 L 806.50,741.51 L 816.75,741.51 L 827.00,741.51 L 837.26,741.51 L 847.51,741.51 L 857.76,741.51 L 868.02,741.51 L 878.27,741.51 L 888.52,741.51 L 898.78,741.51 L 909.03,741.51 L 919.28,741.51 L 929.54,741.51 L 939.79,741.51 L 950.04,741.51 L 960.30,741.51 L 970.55,741.51 L 980.80,741.51 L 991.06,741.51 L 1001.31,741.51 L 1011.56,741.51 L 1021.82,741.51 L 1032.07,741.51 L 1042.32,741.51 L 1052.58,741.51 L 1062.83,741.51 L 1073.08,741.51 L 1083.34,741.51 L 1093.59,741.51 L 1103.84,741.51 L 1114.10,741.51 L 1124.35,741.51 L 1134.60,741.51 L 1144.86,741.51 L 1155.11,741.51 L 1165.36,741.51 L 1175.62,741.51 L 1185.87,741.51 L 1196.12,741.51 L 1206.38,741.51 L 1216.63,741.51 L 1226.88,741.51 L 1237.14,741.51 L 1247.39,741.51 L 1257.64,741.51 L 1267.90,741.51 L 1278.15,741.51 L 1288.40,741.51 L 1298.66,741.51 L 1308.91,741.51 L 1319.16,741.51 L 1329.42,741.51" fill="none" stroke="#4a90c4" stroke-width="2.7" stroke-linecap="round"/>
+<text x="1048.32" y="501.98" fill="#333333" font-size="12.5" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">上位1%</text>
+<text x="1048.32" y="746.10" fill="#333333" font-size="12.5" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">下位</text>
+<text x="1048.32" y="759.35" fill="#333333" font-size="12.5" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">50%</text>
+<text x="65.74" y="32.45" fill="#111111" font-size="21" font-weight="bold" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">富の増大</text>
+<text x="65.74" y="56.30" fill="#333333" font-size="11.5" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">過去25年間で、アメリカの最も裕福な上位1％は</text>
+<text x="65.74" y="71.50" fill="#333333" font-size="11.5" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">下位50％をはるかに上回る富の増加を経験した。</text>
+<text x="65.74" y="804.20" fill="#666666" font-size="8.5" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">注：データは2026年9月18日時点（2026年第2四半期）。上位1％＝上位0.1％＋99～99.9パーセンタイルの合計。</text>
+<text x="65.74" y="817.20" fill="#666666" font-size="8.5" font-family="Hiragino Kaku Gothic ProN,Noto Sans CJK JP,Yu Gothic,sans-serif">出典：米連邦準備制度理事会（FRB）分配金融勘定（Distributional Financial Accounts）</text>
 </svg>
