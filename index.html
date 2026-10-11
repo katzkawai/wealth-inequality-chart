@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>富の増大 — アメリカの富の格差（上位1% vs 下位50%）</title>
+<style>
+  :root { --gold:#c99a3f; --blue:#4a90c4; --ink:#111; --sub:#333; --note:#666; }
+  * { box-sizing: border-box; }
+  body { font-family: "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", "Yu Gothic", sans-serif;
+         margin: 0; background:#fafafa; color: var(--ink); line-height:1.7; }
+  main { max-width: 920px; margin: 0 auto; padding: 48px 24px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  .lede { color: var(--sub); margin: 0 0 32px; }
+  figure { margin: 0; background:#fff; padding:24px; border-radius:12px;
+           box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+  figure img { width:100%; height:auto; display:block; }
+  figcaption { color: var(--note); font-size:.85rem; margin-top:16px; }
+  section { margin-top: 40px; background:#fff; padding:24px; border-radius:12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+  h2 { font-size:1.15rem; margin-top:0; }
+  table { border-collapse: collapse; width:100%; font-size:.9rem; }
+  th, td { border-bottom:1px solid #e5e5e5; padding:8px 12px; text-align:right; }
+  th:first-child, td:first-child { text-align:left; }
+  a { color: var(--blue); }
+  .keypoints li { margin-bottom: 6px; }
+  footer { margin-top:40px; color:var(--note); font-size:.8rem; text-align:center; }
+</style>
+</head>
+<body>
+<main>
+  <h1>富の増大</h1>
+  <p class="lede">過去25年間で、アメリカの最も裕福な上位1％は下位50％をはるかに上回る富の増加を経験した。<br>
+  本版は<a href="https://www.nbcnews.com">NBC News</a>のグラフ（データ更新日2025年3月23日）を日本語化し、最新データ（2026年第2四半期）まで拡張した再現版。</p>
+
+  <figure>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAYAAADPfd1WAAAABHNCSVQICAgIfAhkiAAAAElJREFUeJzt0EENwCAQwEBy+F8yRkNPAgrtZ2bOBwAAAABw1P76AAAAAADAMwZgAAAAACDMAAwAAAAAhBmAAQAAAIChmXkB+aEFlR8T1T8AAAAASUVORK5CYII=" alt="上位1%と下位50%の純資産の推移グラフ">
+    <figcaption>
+      注：データは2026年9月18日時点（2026年第2四半期）。上位1％＝上位0.1％＋99～99.9パーセンタイルの合計。<br>
+      出典：<a href="https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/">米連邦準備制度理事会（FRB）分配金融勘定（Distributional Financial Accounts）</a>
+    </figcaption>
+  </figure>
+
+  <section>
+    <h2>主なポイント</h2>
+    <ul class="keypoints">
+      <li><strong style="color:var(--gold)">上位1％</strong>の純資産は2000年頃の約11兆ドルから<strong>2026年第2四半期には約60兆ドル</strong>へ、約5.4倍に増加。</li>
+      <li><strong style="color:var(--blue)">下位50％</strong>は同期間に約1.3兆ドルから約4.3兆ドルへ、約3.3倍にとどまる。</li>
+      <li>金融危機（2008〜09年）では下位50％の資産が半減する一方、上位1％はその後の資産膨張で大きく回復・拡大。</li>
+      <li>2020年以降の急拡大で、上位1％が全国の富のシェアはさらに集中（FRB推計で上位1％の富のシェアは約30％）。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>データ（四半期）</h2>
+    <p>出典はFRB「Distributional Financial Accounts」。上位1％は「上位0.1％」と「99〜99.9パーセンタイル」の合計。
+    単位は兆ドル（現在価値）。</p>
+    <table id="tbl">
+      <thead><tr><th>四半期</th><th>上位1%（兆ドル）</th><th>下位50%（兆ドル）</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <p style="margin-top:12px; font-size:.85rem;">
+      全期間（1989年第3四半期〜）のデータ：
+      <a href="assets/dfa_top1_bottom50_ja.csv">CSV（日本語列名）</a> /
+      <a href="assets/dfa_top1_bottom50_en.csv">CSV（英語列名）</a>
+    </p>
+  </section>
+
+  <footer>
+    本ページは教育・検証目的の非公式日本語再現です。元グラフ © NBC News / データ © Board of Governors of the Federal Reserve System
+  </footer>
+</main>
+<script>
+fetch("assets/dfa_top1_bottom50_ja.csv").then(r=>r.text()).then(t=>{
+  const rows = t.trim().split("\\n").slice(1);
+  const body = document.querySelector("#tbl tbody");
+  rows.slice(-16).forEach(r=>{
+    const c = r.split(",");
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${c[0]}</td><td>${(+c[2]).toFixed(2)}</td><td>${(+c[3]).toFixed(2)}</td>`;
+    body.appendChild(tr);
+  });
+});
+</script>
+</body>
+</html>
